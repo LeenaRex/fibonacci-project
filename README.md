@@ -23,10 +23,10 @@ The project source code and dependent files are in GitHub:<br/>
 The server needs to be running when performing these tests.
 1. Can enter the following REST API query parameters in the browser URL and see the responses from the 	   server  
    a. <a href="http://localhost:3000/fibonacci?number=9" >http://localhost:3000/fibonacci?number=9</a></br>
-   b. <a href="http://localhost:3000/fibonacci?number=-3">http://localhost:3000/fibonacci?number=-3</a><br/>  
-   c. <a href="http://localhost:3000/fibonacci?number=0">http://localhost:3000/fibonacci?number=0</a><br/>
-   d. <a href="http://localhost:3000/fibonacci?number=1468">http://localhost:3000/fibonacci?number=1468</a><br/>
-   e. <a href="http://localhost:3000/fibonacci?number=1480">http://localhost:3000/fibonacci?number=1480</a><br/> 
+   b. <a href="http://localhost:3000/fibonacci?number=-3">http://localhost:3000/fibonacci?number=-3</a></br>
+   c. <a href="http://localhost:3000/fibonacci?number=0">http://localhost:3000/fibonacci?number=0</a></br>
+   d. <a href="http://localhost:3000/fibonacci?number=1468">http://localhost:3000/fibonacci?number=1468</a></br>
+   e. <a href="http://localhost:3000/fibonacci?number=1480">http://localhost:3000/fibonacci?number=1480</a></br> 
 
 2. From the command-line prompt can try the following curl commands with responses from server </br>
    a. $ curl -s http://localhost:3000/fibonacci?number=5 </br>
