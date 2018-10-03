@@ -6,10 +6,10 @@ The HTTP method GET is used to fetch the result from the server, and the POST me
 The project source code and dependent files are in GitHub:<br/>
 <a href="https://github.com/leena-rex/fibonacci-project">https://github.com/leena-rex/fibonacci-project</a>
 
-1. Download the project as a zip file to the desktop.
+1. Download the FibonacciApp.zip file to the desktop.
 2. NodeJS and GIT needs to be already installed in the computer.
-3. Extract the files from fibonacci-project.zip. 
-4. In the Git Bash command-line prompt navigate to 'RestApiWebService' project folder. 
+3. Extract the files from fibonacciApp.zip. It will contain the 'RestApiWebService' project folder.
+4. In the Git Bash command-line prompt navigate to 'RestApiWebService' directory. 
 5. Important: Type: 'npm install' without the single quotes. This will install the dependent modules
    listed in the project's package.json file
 6. Start the server with the following command:<br/>
@@ -54,22 +54,22 @@ The server needs to be running when performing these tests.
    $> npm test
 
 4. <b>Project Directory Structure</b></br>
-   RestApiWebService
-    |--- node_modules  (javascript library files and modules)
-    |--- out
-    |    --- app.js.html   (JS Documentation for the app.js source code in html format)
-    |    --- index.html    (JS Documentation for the project)
-    |--- public
-    |    --- css
-    |        --- style.css (CSS code for views/index.ejs. Used in UI "http://localhost:3000/".
-    |--- test
-    |    --- app_test.js  (test code for app.js)
-    |--- views
-    |    --- index.js     (UI for "http://localhost:3000/")
-    | --- app.js          (source code for the application)
-    | --- jsdoc.json      (Contains information on dependent files for JSDoc and docdash template)
-    | --- package.json    (Contains information on dependent files for node modules, scripts)  
-    | --- README.md       (Readme file for steps to deploy and run this project).
+   RestApiWebService</br>
+    |--- node_modules  (javascript library files and modules) </br>
+    |--- out </br>
+    |    --- app.js.html   (JS Documentation for the app.js source code in html format) </br>
+    |    --- index.html    (JS Documentation for the project) </br>
+    |--- public </br>
+    |    --- css </br>
+    |        --- style.css (CSS code for views/index.ejs. Used in UI "http://localhost:3000/". </br>
+    |--- test </br>
+    |    --- app_test.js  (test code for app.js) </br>
+    |--- views </br>
+    |    --- index.js     (UI for "http://localhost:3000/") </br>
+    | --- app.js          (source code for the application) </br>
+    | --- jsdoc.json      (Contains information on dependent files for JSDoc and docdash template)</br>
+    | --- package.json    (Contains information on dependent files for node modules, scripts) </br> 
+    | --- README.md       (Readme file for steps to deploy and run this project).</br>
 
     The documentation for this project is located in RestApiWebService/out/index.html and it can be opened in a Client Browser.
 
