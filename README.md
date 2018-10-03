@@ -16,7 +16,7 @@ The project source code and dependent files are in GitHub:<br/>
 7. Start the server with the following command:<br/>
    $> node app.js<br/>
    The server will start 'Listening on port 3000'.
-8. Open a Chrome browser and type the URL <a href=="http://localhost:3000/" >http://localhost:3000/</a><br/>
+8. Open a Chrome browser and type the URL <a href="http://localhost:3000/" >http://localhost:3000/</a><br/>
    This webpage will display a form to enter a number. Enter a number in the input field and
    click on the 'Submit' button. The fibonacci number(s) will be displayed in the webpage.
 
